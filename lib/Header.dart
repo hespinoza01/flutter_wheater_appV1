@@ -69,6 +69,22 @@ class Header extends StatelessWidget{
                   size: 28.0,
                 ),
 
+                RichText(
+                  text: TextSpan(
+                    text: "You have ",
+                    style: TextStyle( color: Colors.white, fontSize: 16.0 ),
+                    children: <TextSpan>[
+                      TextSpan(
+                        text: "1 ",
+                        style: TextStyle( fontWeight: FontWeight.bold )
+                      ),
+                      TextSpan(
+                        text: "appointment"
+                      )
+                    ]
+                  )
+                ),
+
                 button
               ],
             ),
